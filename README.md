@@ -1,4 +1,4 @@
-# Wordle# Wordle (Python CLI Version)
+# Wordle (Python CLI Version)
 
 A terminal-based clone of the classic **Wordle** game written in Python.  
 This program selects a daily word from a file and lets you guess it in up to **6 tries**, showing colored feedback (green, yellow, gray) just like the official game.
