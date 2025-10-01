@@ -15,6 +15,7 @@ x = 0
 guess = 0
 file = open('wordoftheday.txt', 'r')
 content = file.readlines()
+global startdate 
 startdate = '09/30/2025'
 startday = datetime.datetime.strptime(startdate, "%m/%d/%Y").date()
 todaydate = datetime.date.today()
@@ -223,7 +224,6 @@ def wordcheck():
 
 def won():
   x = 0
-  startdate = '03/03/2022'
   startday = datetime.datetime.strptime(startdate, "%m/%d/%Y").date()
   todaydate = datetime.date.today()
   
@@ -248,7 +248,6 @@ def lost():
   x = 0
   file = open('wordoftheday.txt', 'r')
   content = file.readlines()
-  startdate = '03/03/2022'
   startday = datetime.datetime.strptime(startdate, "%m/%d/%Y").date()
   todaydate = datetime.date.today()
   
